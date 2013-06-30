@@ -1,6 +1,10 @@
 #THINC: A Virtual Display Architecture for Thin Client Computing
 
 ##
+##Authors
+* Ricardo A. Baratto
+* Leonard N. Kim
+* Jason Nieh
 
 ##Background
 - "Remote Display is a client/server architecture that decouples a computer from the devices used to interact with it, such as the monitor, keyboard, and mouse, and uses the network to provide a communication channel between these devices and the computer. Basically, a client transmits user input to
@@ -29,7 +33,7 @@ Thin-client Internet Computing, THINC, is a virtual display architechture/remote
 
 * A virtual display driver(w/c takes the place of device driver in the system architecture mentioned above) intercepts drawing commands of the device driver, encodes these commands using the command's semantic information  nd THINC's low-level encoding protocol(COPY,SOLID FILL,TILE FILL,BITMAP FILL,RAW) for display updates and sends these to the client device to display.The client device easily displays the encoded commands because they mimic operations commonly found in client display hardware and represent a subset of operations accelerated by most graphics subsystems.
 
-* Display updates are pushed from the server to the client immediately.For slow responding clients, updates are merged into new ones and sent to the client
+* Display updates are pushed from the server to the client immediately.For slow responding clients, updates are merged into new ones(deleting old/usesless updates) and sent to the client
  
 * THINC uses Shortest-Job-First display command scheduling to improve response time.Display updates are queued and are flushed in increasing size.
 

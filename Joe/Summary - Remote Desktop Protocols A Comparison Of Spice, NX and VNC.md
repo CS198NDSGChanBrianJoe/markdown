@@ -2,6 +2,9 @@
 
 ##
 
+##Author
+Martin Hagström
+
 ##Background
 - A Remote Desktop Protocol (RDP) is a protocol that allows users(clients) to access remote computers(servers) as if they were local desktop computers. 
 

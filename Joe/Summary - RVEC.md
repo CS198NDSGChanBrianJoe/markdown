@@ -2,6 +2,13 @@
 
 ##
 
+##Authors
+* Shinichi Sazawa
+* Masayoshi Hashima
+* Yuichi Sato
+* Kenichi Horio
+* Kazuki Matsui
+
 ##Background
 * Cloud computing (CC) services where applications are centralized on a server allowing remote users ubiquitous access using remote desktop software/protocol/technology is becoming more prevalent because of its economic, practical, security, and efficiency benifits.
 
